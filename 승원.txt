@@ -1,0 +1,86 @@
+2025.07.22 ( 인텔리제이 설치, 간단한 코딩, 깃 설치, 깃허브 가입)
+
+1. 인텔리제이
+  1) 설치 
+-https://www.jetbrains.com/idea/
+-Community Edition
+-.exe (Windows)
+-설치 옵션 : 바로가기, 컨텍스트, PATH변수 업데이트, 연결 생성(java)
+-설치 후 재부팅은 경우에 따라서(작동 안되는 옵션 있을 수 있음)
+ 
+ 2) 설정
+-한글 비권장
+-Clone Repository(깃허브등에서 데이터 가져오기)
+-경로 : New project > D:\무중단서비스(최승원)\25.07.22\jave_project
+-creat git repository(깃허브 연동) 체크
+ 
+  (1)햄버거 메뉴(왼쪽상단 줄눈)
+-appearance > theme > light (테마 : 다크모드, 라이트모드)
+-Use custom font : 폰트 설정
+
+-Editor > General > Soft-wrap these files > ;*.java; 추가
+-마우스 확대기능 (Mouse Control)
+
+-encoding(한글깨짐방지) > UTF-8
+-Global Encoding, Project Encoding, Default encoding for properties files > 3개 항목
+
+-Editor > Inlay hints > Code vision > Usages 항목 체크 해제(프로젝트 내 사용 코드 관련 도움말 자동작성) 
+
+
+*;(세미콜론) : 항목구분
+*jdk : 최신버전의 전버전이나, 전전 버전 사용, 최신버전은 불안정 할 수 있음(설정은 햄버거 메뉴에서 Project Structuer)
+ -jdk 버전이랑 language level 맞추기
+
+2. Git & GitHub
+ 1)Git
+-Git : 로컬 컴퓨터에 저장
+-Git hub : 클라우드 방식으로 저장
+-설치경로 : https://git-scm.com/downloads
+
+ 2)GitHub ( ID : csw307110@gmail.com )
+-회원가입 경로 : https://github.com/
+-Dashboard > Create repository(저장소)
+ : https://github.com/won428/My_java_project-25.07.22-ict-.git
+
+ 3)인텔리제이와 Git 연동
+  1)Git과 연동
+-Version Control
+-Git
+-Path to Git executable (C:\Program Files\Git\bin\git.exe)
+  2)GitHub와 연동
+-GitHub > login via github
+
+  3)Push(파일 업로드)
+-작업용 폴더 >(commit) 로컬저장소 (pull)<원격저장소
+                                                  (push)>
+-git 메뉴 안보일때 : 햄버거메뉴 > vcs > git 메뉴 만들기 (enable 어쩌구)
+
+-project 우클릭 > git > +Add > Commit Directory
+> Commit and push >  이름, 이메일 설정 후upload > fail 나올시 commit anyway> Define remote > 링크 > push > https://github.com/won428/My_java_project-25.07.22-ict-.git
+
+-왼쪽상단 폴더모양 > project
+-그 밑에 아이콘 git
+
+-수정사항 후 해당 파일 우클릭 후 git > commit file
+
+Worktree(작업중인 폴더) > +add(스테이징) : 중간저장 > commit > repository 
+
+  4)pull(파일 내보내기)
+-github > repository > 우측상단 Add file > +create new file > 파일 만들기
+>햄버거메뉴 > git > pull
+
+  5)clone 만들기
+-pull이랑은 비슷하지만 다른 개념
+-복제
+-대상 주소 복사
+-햄버거메뉴 > git > clone > 대상 주소 넣기(주소 제외하고 project이름은 변경 가능)
+
+*commit,push,pull 과정에서 팀원들이랑 project버전 맞추기
+
+
+
+1. New Project
+2. Git, GitHub 연동
+3. Project 진행
+4. Commit and Push
+
