@@ -58,7 +58,7 @@
 
 
 3. Java
-	1) Jave에 대해서
+	1) Java에 대해서
 		(1) src > package > class 파일 순으로 분류된다.
 		(2) Java에서 기능이란 Method라고 말할 수 있는데, Method는 명령어의 기능을말한다.
 			* println의 Method는 문자 출력 후 줄을 바꿔준다.
